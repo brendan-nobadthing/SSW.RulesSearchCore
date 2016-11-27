@@ -1,0 +1,12 @@
+﻿﻿@model IEnumerable<SSW.RulesSearchCore.Domain.RuleSearchResult>
+
+<div>
+    @foreach (var result in Model)
+    {
+        <div>
+            <div class="pull-right">@result.Score</div>
+            <h4>@result.Rule.Title</h4>
+            <p>@Html.Raw(result.Context)</p>
+        </div>
+    }
+</div>

@@ -1,0 +1,21 @@
+﻿{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "debugType": "portable"
+  },
+  "dependencies": {
+     "NETStandard.Library": "1.6.0",
+     "Serilog" : "2.3.0",
+     "Newtonsoft.Json" : "9.0.1",
+     "Autofac" : "4.2.1",
+
+     "SSW.RulesSearchCore.Domain":{
+          "target":"project"
+      }
+  },
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}

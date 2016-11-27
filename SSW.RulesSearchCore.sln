@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.0.0
+MinimumVisualStudioVersion = 10.0.0.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SSW.RulesSearchCore.Web", "SSW.RulesSearchCore.Web/SSW.RulesSearchCore.Web.xproj", "{2729B460-13AD-46C1-93C8-AC02FAF6DA55}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SSW.RulesSearchCore.Domain", "SSW.RulesSearchCore.Domain\SSW.RulesSearchCore.Domain.xproj", "{39E10F4E-3D6E-49E1-9078-8FBECDEA3653}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SSW.RulesSearchCore.ConsoleRunner", "SSW.RulesSearchCore.ConsoleRunner\SSW.RulesSearchCore.ConsoleRunner.xproj", "{1A8F64D4-03F6-4FE9-81EE-87B6E57BC877}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SSW.RulesSearchCore.Data.SharePoint", "SSW.RulesSearchCore.Data.SharePoint\SSW.RulesSearchCore.Data.SharePoint.xproj", "{EF4B51DE-44E6-4289-BBEB-F11CD40AAABD}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SSW.RulesSearchCore.Elastic", "SSW.RulesSearchCore.Elastic\SSW.RulesSearchCore.Elastic.xproj", "{DF365282-D4E6-4BB0-BB11-EE193384921F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2729B460-13AD-46C1-93C8-AC02FAF6DA55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2729B460-13AD-46C1-93C8-AC02FAF6DA55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2729B460-13AD-46C1-93C8-AC02FAF6DA55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2729B460-13AD-46C1-93C8-AC02FAF6DA55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39E10F4E-3D6E-49E1-9078-8FBECDEA3653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39E10F4E-3D6E-49E1-9078-8FBECDEA3653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39E10F4E-3D6E-49E1-9078-8FBECDEA3653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39E10F4E-3D6E-49E1-9078-8FBECDEA3653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A8F64D4-03F6-4FE9-81EE-87B6E57BC877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A8F64D4-03F6-4FE9-81EE-87B6E57BC877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A8F64D4-03F6-4FE9-81EE-87B6E57BC877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A8F64D4-03F6-4FE9-81EE-87B6E57BC877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF4B51DE-44E6-4289-BBEB-F11CD40AAABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF4B51DE-44E6-4289-BBEB-F11CD40AAABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF4B51DE-44E6-4289-BBEB-F11CD40AAABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF4B51DE-44E6-4289-BBEB-F11CD40AAABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF365282-D4E6-4BB0-BB11-EE193384921F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF365282-D4E6-4BB0-BB11-EE193384921F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF365282-D4E6-4BB0-BB11-EE193384921F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF365282-D4E6-4BB0-BB11-EE193384921F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

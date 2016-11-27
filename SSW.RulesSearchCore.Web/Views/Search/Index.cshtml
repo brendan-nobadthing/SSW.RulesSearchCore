@@ -1,0 +1,26 @@
+﻿﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>SSW Rules Search Demo</h2>
+
+<form class="form">
+    <div class="form-group">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="input-group">
+                    <div class="input-group-addon">Search:</div>
+                    <input type="text" name="search" id="search-query" class="form-control"/>
+                    <div class="input-group-btn"><button type="button" class="btn btn-primary" id="btn-search">Go</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="search-results" style="min-height: 200px;"></div>
+</form>
+
+@section scripts
+{
+    <script type="text/javascript" src="~/js/rules-search.js"></script>
+}
